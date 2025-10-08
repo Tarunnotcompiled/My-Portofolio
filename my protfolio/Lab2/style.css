@@ -9,7 +9,6 @@
     --border-color: #dddddd;         
 }
 
-/* appling the base styles to the whole page */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -19,7 +18,6 @@ body {
     line-height: 1.6;
 }
 
-/* general container styles for centering content */
 header, main, footer {
     max-width: 900px;
     margin: 0 auto;
@@ -44,7 +42,6 @@ h1, h2 {
 }
 
 
-/* navigation styling */
 nav {
     background-color: var(--accent-color);
     padding: 10px;
@@ -55,18 +52,16 @@ nav {
 
 nav a {
     color: white;
-    text-decoration: none; /* removing the underline */
+    text-decoration: none; 
     padding: 10px 15px;
     margin: 0 5px;
 }
 
 nav a:hover {
-    background-color: #357abd; /* darker bluu on hover */
+    background-color: #357abd;
     border-radius: 5px;
 }
 
-
-/* box model spacing and visual element */
 
 section {
     background-color: #ffffff;
@@ -77,9 +72,8 @@ section {
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-/* for the profile image */
 #about img {
-    border-radius: 50%; /* it makes the image circular */
+    border-radius: 50%; 
     border: 3px solid var(--border-color);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     display: block;
@@ -87,7 +81,6 @@ section {
 }
 
 
-/* table styling */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -105,13 +98,11 @@ th {
     font-weight: bold;
 }
 
-/* different row colors for good readability ("zebra striping") */
 tr:nth-child(even) {
     background-color: var(--primary-bg-color);
 }
 
 
-/* buttons & form styling */
 button {
     background-color: var(--accent-color);
     color: white;
@@ -123,7 +114,7 @@ button {
 }
 
 button:hover {
-    background-color: #357abd; /* darker shade on hoverr */
+    background-color: #357abd; 
 }
 
 input, textarea {
@@ -134,11 +125,8 @@ input, textarea {
     border-radius: 4px;
 }
 
-
-/* positioning */
-
 .back-to-top {
-    position: fixed; /* stays in place during scrolling */
+    position: fixed;
     bottom: 20px;
     right: 20px;
     background-color: var(--accent-color);
@@ -151,4 +139,5 @@ input, textarea {
 
 .back-to-top:hover {
     background-color: #357abd;
+
 }
